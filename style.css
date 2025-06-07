@@ -1751,7 +1751,7 @@ body {
     flex-wrap: wrap;
 }
 
-.cta-button {
+.ps-cta-button {
     display: inline-flex;
     align-items: center;
     padding: 15px 35px;
@@ -1767,7 +1767,7 @@ body {
     box-shadow: 0 5px 20px rgba(0, 92, 180, 0.3);
 }
 
-.cta-button::before {
+.ps-cta-button::before {
     content: '';
     position: absolute;
     top: 0;
@@ -1778,37 +1778,37 @@ body {
     transition: left 0.5s ease;
 }
 
-.cta-button:hover {
+.ps-cta-button:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 30px rgba(0, 92, 180, 0.4);
 }
 
-.cta-button:hover::before {
+.ps-cta-button:hover::before {
     left: 100%;
 }
 
-.cta-button::after {
+.ps-cta-button::after {
     content: '→';
     margin-left: 8px;
     transition: transform 0.3s ease;
     font-size: 1.2rem;
 }
 
-.cta-button:hover::after {
+.ps-cta-button:hover::after {
     transform: translateX(5px);
 }
 
-.cta-secondary {
-    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+.ps-cta-secondary {
+    background: linear-gradient(135deg, #005CB4 0%, #003d7a 100%);
     box-shadow: 0 5px 20px rgba(40, 167, 69, 0.3);
 }
 
-.cta-secondary:hover {
+.ps-cta-button:hover {
     box-shadow: 0 8px 30px rgba(40, 167, 69, 0.4);
 }
 
-.cta-tertiary {
-    background: linear-gradient(135deg, #17a2b8 0%, #138496 100%);
+.ps-cta-tertiary {
+    background: linear-gradient(135deg, #005CB4 0%, #003d7a 100%);
     box-shadow: 0 5px 20px rgba(23, 162, 184, 0.3);
 }
 
@@ -1816,12 +1816,12 @@ body {
     box-shadow: 0 8px 30px rgba(23, 162, 184, 0.4);
 }
 
-.cta-quaternary {
-    background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+.ps-cta-quaternary {
+    background: linear-gradient(135deg, #005CB4 0%, #003d7a 100%);
     box-shadow: 0 5px 20px rgba(220, 53, 69, 0.3);
 }
 
-.cta-quaternary:hover {
+.ps-cta-quaternary:hover {
     box-shadow: 0 8px 30px rgba(220, 53, 69, 0.4);
 }
 
@@ -2047,7 +2047,7 @@ body {
         align-items: center;
     }
 
-    .cta-button {
+    .ps-cta-button {
         padding: 12px 25px;
         font-size: 0.95rem;
         width: 100%;
